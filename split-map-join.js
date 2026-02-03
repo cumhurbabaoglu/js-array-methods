@@ -1,0 +1,1 @@
+// The task requires writing a function to transform strings with hyphen into camelCase 
