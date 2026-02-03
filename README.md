@@ -1,1 +1,18 @@
-# js-array-methods
+# JavaScript Array Methods Exercises
+
+This repository contains some exercises for JavaScript array methods, taken from [The Modern JavaScript Tutorial
+](https://javascript.info)
+
+## Covered Methods
+- map
+- split
+- join
+- slice
+- splice
+- forEach
+- push
+- includes
+- indexOf
+- filter
+- reduce
+- sort
