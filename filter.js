@@ -16,3 +16,9 @@ let nums = [20, 34, 19, 41, 55, 8, 60];
 
 let filteredNums = filterRange(nums, 30, 65);
 console.log(filteredNums); // [34, 41, 55, 60]
+
+// This function can be shortened as follows
+
+function filterRange(arr, a, b) {
+  return arr.filter(n => n >= a && n <= b);
+  }
