@@ -11,3 +11,8 @@ let arr = [1, 18, 4, 9, 12, 2];
 
 let result = filterRange(arr, 2, 10);
 console.log(result); // [4, 9, 2]
+
+let nums = [20, 34, 19, 41, 55, 8, 60];
+
+let filteredNums = filterRange(nums, 30, 65);
+console.log(filteredNums); // [34, 41, 55, 60]
