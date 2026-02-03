@@ -1,1 +1,1 @@
-// Write a function to sort an array of numbers in decreasing order
+// Sort an array of numbers in decreasing order
