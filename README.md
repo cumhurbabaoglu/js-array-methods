@@ -11,7 +11,6 @@ This repository contains some exercises for JavaScript array methods, taken from
 - splice
 - forEach
 - push
-- includes
 - indexOf
 - filter
 - reduce
