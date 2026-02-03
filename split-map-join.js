@@ -12,3 +12,11 @@ function camelize(string) {
         })
         .join("");
 }
+
+// TEST CASES
+
+
+console.log(camelize("my-example-string")); // myExampleString
+console.log(camelize("background-color"));  // backgroundColor
+console.log(camelize("some-hyphen-text"));  // someHyphenText
+console.log(camelize("very-cold-night"));   // veryColdNight
