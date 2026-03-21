@@ -26,3 +26,20 @@
 // In this task we assume that id is unique. There may be no two array items with the same id.
 
 // Please use array .reduce method in the solution.
+
+let users = [
+  {id: 'john', name: "John Smith", age: 20},
+  {id: 'ann', name: "Ann Smith", age: 24},
+  {id: 'pete', name: "Pete Peterson", age: 31},
+];
+
+function groupById(array) {
+    return array.reduce((obj, value) => {
+        obj[value.id] = value;
+        return obj;
+    }, {})
+}
+
+let usersById = groupById(users);
+
+console.log(usersById);
