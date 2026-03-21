@@ -10,3 +10,4 @@ This repository contains some exercises for JavaScript array methods, taken from
 - slice
 - filter
 - sort
+- reduce
